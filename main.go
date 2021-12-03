@@ -28,9 +28,9 @@ func main() {
 	factory := dynamicinformer.NewFilteredDynamicSharedInformerFactory(
 		client,
 		0,
-		"db-ops",
+		"cherwin",
 		func(opts *v1.ListOptions) {
-			opts.LabelSelector = "scripts=cherwin"
+			opts.LabelSelector = "scripts=db-ops"
 		},
 	)
 
