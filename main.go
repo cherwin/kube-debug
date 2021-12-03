@@ -30,7 +30,7 @@ func main() {
 		0,
 		"db-ops",
 		func(opts *v1.ListOptions) {
-			opts.LabelSelector = "scripts=db-ops"
+			opts.LabelSelector = "scripts=cherwin"
 		},
 	)
 
